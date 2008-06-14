@@ -1,0 +1,7 @@
+Revision history for Perl extension Class::DBI::Plugin::DigestColumns
+
+0.02  Wed Mar 08 15:07:29 2006
+    - add prereqs.
+
+0.01  Wed Mar  8 14:42:56 2006
+    - original version
