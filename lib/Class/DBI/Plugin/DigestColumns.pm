@@ -1,7 +1,7 @@
 package Class::DBI::Plugin::DigestColumns;
 use strict;
 use warnings;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 use base qw/Class::DBI::Plugin/;
 use Scalar::Util qw/blessed/;
 use Digest::SHA1 ();
