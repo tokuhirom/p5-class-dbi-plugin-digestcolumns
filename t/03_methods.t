@@ -3,8 +3,8 @@ use warnings;
 use Test::More;
 
 BEGIN {
-    eval "use Class::DBI::Test::SQLite";
-    plan $@ ? (skip_all => 'needs Class::DBI::Test::SQLite for testing') : (tests => 2);
+    eval "use Class::DBI::Test::SQLite; use DBD::SQLite;";
+    plan $@ ? (skip_all => 'needs Class::DBI::Test::SQLite, DBD::SQLite for testing') : (tests => 2);
 }
 
 package Mock;
