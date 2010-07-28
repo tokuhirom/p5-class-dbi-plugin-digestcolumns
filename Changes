@@ -1,5 +1,9 @@
 Revision history for Perl extension Class::DBI::Plugin::DigestColumns
 
+0.04
+
+    - added required perl version
+
 0.03
 
     - skip tests if DBD::SQLite is not available
